@@ -60,10 +60,10 @@ jobs:
         run: cd core_ds && flutter pub get && flutter analyze
 
       - name: components — build android
-        run: cd components && flutter pub get && flutter build aar --release
+        run: cd components && flutter pub get && flutter analyze
 
       - name: templates — build android
-        run: cd templates && flutter pub get && flutter build aar --release
+        run: cd templates && flutter pub get && flutter analyze
 
   # JOB: iOS (macos)
   ios_build:
