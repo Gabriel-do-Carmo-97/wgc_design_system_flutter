@@ -57,13 +57,13 @@ jobs:
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
 
       - name: core_ds — build android
-        run: cd core_ds && flutter pub get && flutter analyze
+        run: cd core_ds && flutter pub get && flutter analyze && cd ..
 
       - name: components — build android
-        run: cd components && flutter pub get && flutter analyze
+        run: cd components && flutter pub get && flutter analyze cd ..
 
       - name: templates — build android
-        run: cd templates && flutter pub get && flutter analyze
+        run: cd templates && flutter pub get && flutter analyze cd ..
 
   # JOB: iOS (macos)
   ios_build:
