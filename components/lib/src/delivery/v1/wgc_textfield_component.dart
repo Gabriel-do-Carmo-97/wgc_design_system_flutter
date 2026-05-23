@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wgc_core_ds/wgc_core_ds.dart';
 
 class WgcTextfieldComponent extends StatelessWidget {
   const WgcTextfieldComponent({super.key});
@@ -8,7 +9,7 @@ class WgcTextfieldComponent extends StatelessWidget {
     return TextFormField(
       decoration: InputDecoration(
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(18)
+          borderRadius: BorderRadius.circular(WgcCoreDsBorderRadius.sl18)
         )
       ),
     );
