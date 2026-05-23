@@ -44,10 +44,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Flutter
+      - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          channel: stable
+          flutter-version-file: pubspec.yaml # path to pubspec.yaml or .fvmrc or .fvm/fvm_config.json
+      - run: flutter --version
 
       - name: Cache pub packages
         uses: actions/cache@v4
