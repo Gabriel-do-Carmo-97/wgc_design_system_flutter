@@ -24,6 +24,6 @@ flutter:
   uses-material-design: true
 
   # Caso os templates tenham imagens próprias (ex: ilustrações de telas vazias)
-  assets:
-    - assets/images/
-    - assets/illustrations/
+#  assets:
+#    - assets/images/
+#    - assets/illustrations/
