@@ -17,6 +17,8 @@ dependencies:
     path: ../components
   wgc_templates:
     path: ../templates
+  wgc_core_ds:
+    path: ../core_ds
 
   cupertino_icons: ^1.0.8
 

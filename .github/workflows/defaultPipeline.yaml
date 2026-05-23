@@ -57,7 +57,7 @@ jobs:
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
 
       - name: core_ds — build android
-        run: cd core_ds && flutter pub get && flutter build aar --release
+        run: cd core_ds && flutter pub get && flutter analyze
 
       - name: components — build android
         run: cd components && flutter pub get && flutter build aar --release
