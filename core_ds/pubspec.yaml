@@ -1,0 +1,25 @@
+name: wgc_core_ds
+description: "Módulo de token cores spacing radius do WGC Design System"
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: ^3.11.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Caso os templates tenham imagens próprias (ex: ilustrações de telas vazias)
+#  assets:
+#    - assets/images/
+#    - assets/illustrations/
