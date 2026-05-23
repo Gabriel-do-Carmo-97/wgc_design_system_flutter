@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData(),
       home: const WgcSignInTemplate(
         primaryColor: Colors.green,
         tertiaryColor: Colors.white,

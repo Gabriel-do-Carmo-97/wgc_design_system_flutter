@@ -215,6 +215,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  wgc_core_ds:
+    dependency: transitive
+    description:
+      path: "../core_ds"
+      relative: true
+    source: path
+    version: "0.0.1"
   wgc_templates:
     dependency: "direct main"
     description:
@@ -223,5 +230,5 @@ packages:
     source: path
     version: "0.0.1"
 sdks:
-  dart: ">=3.11.5 <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  dart: ">=3.11.4 <4.0.0"
+  flutter: ">=3.19.0"
